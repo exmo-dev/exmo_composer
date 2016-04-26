@@ -15,10 +15,5 @@
       "Exmo\\Api": "src/",
       "Exmo\\Api\\Tests": "tests/"
     }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.x-dev"
-    }
   }
 }
