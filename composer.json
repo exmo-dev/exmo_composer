@@ -9,11 +9,15 @@
   "require-dev": {
     "phpunit/phpunit": "^4.0"
   },
-  "minimum-stability": "dev",
   "autoload": {
     "psr-0": {
       "Exmo\\Api": "src/",
       "Exmo\\Api\\Tests": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
     }
   }
 }
