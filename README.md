@@ -15,7 +15,9 @@ Install via composer:```php composer.phar install```
 
 ```php
 use Exmo\Api\Request;
-...
+
+require 'vendor/autoload.php';
+
 $request = new Request('your_key', 'your_secret');
 $result = $request->query('user_info');
 ...
